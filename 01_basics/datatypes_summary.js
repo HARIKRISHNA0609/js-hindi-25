@@ -8,11 +8,11 @@
 //symbol declare karne ke liye
 
 //eg 
-const id = Symbol('123')
+//const id = Symbol('123')
 
-const anotherId = ('123')
+//const anotherId = ('123')
 
-console.log(id === anotherId)
+//console.log(id === anotherId)
 
 
 
@@ -20,12 +20,45 @@ console.log(id === anotherId)
 
 //types: Array, objects,functions
 
-const hero = ["shaktiman", "raj", "powerranger"]
+//const hero = ["shaktiman", "raj", "powerranger"]
 
-{
-name = harikrishna 
-age =  21
+//{
+//name = harikrishna 
+//age =  21
+
+//}
+
+//function(){}
+
+
+
+// ***********************************************************
+
+// stack (primitive) ,  heap (non primitive)
+
+
+let myYoutubename = "hkdotcom"
+
+let anotherName = myYoutubename
+
+anotherName = "rkdotcom"
+
+console.log(anotherName)
+console.log(myYoutubename)
+
+
+
+let userOne = {
+    email: "kamalagmail.com"
+        
 
 }
 
-function(){}
+let userTwo = userone
+
+usertwo.email = "hk@123"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
