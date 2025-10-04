@@ -39,7 +39,7 @@ const obj3 ={...obj1,...obj2}
 
 
 
-
+   //studying about obj destructuring 
 const course ={
 
   courseName: "js in eng",
