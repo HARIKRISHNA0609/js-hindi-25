@@ -35,4 +35,25 @@ const obj2 ={3:"a",4:"b"}
 
 
 const obj3 ={...obj1,...obj2}
-console.log(obj3)
+//console.log(obj3)
+
+
+
+
+const course ={
+
+  courseName: "js in eng",
+  price: "999",
+
+  courseInstructor : "hitrsh"
+
+}
+
+//course.courseInstructor   used for printing the output 
+
+
+const{courseInstructor}= course
+
+//console.log(courseInstructor)
+
+
